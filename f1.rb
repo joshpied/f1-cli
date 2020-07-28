@@ -5,6 +5,8 @@ require 'json'
 require 'time'
 require './colourize'
 
+# API available at https://ergast.com/mrd/
+
 def get_JSON(url)
   uri = URI(url)
   response = Net::HTTP.get(uri)
